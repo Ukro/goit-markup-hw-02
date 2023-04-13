@@ -1,0 +1,113 @@
+:root
+{
+    --brand-color: #3f51b5;
+
+}
+
+.body-index
+{
+width: 1440px;
+height: 2592px;
+
+background: #FFFFFF
+}
+
+.header-index
+{
+width: 1440px;
+height: 72px;
+left: 0px;
+top: 0px;
+}
+
+.webstudio1
+{
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height, or 117% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+/* IRIS */
+
+color: #4D5AE5;
+}
+
+.webstudio2
+{
+    width: 71px;
+height: 21px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height, or 117% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+/* NAVY BLUE */
+
+color: #2E2F42;
+}
+
+.section1
+{
+width: 1440px;
+height: 600px;
+left: 0px;
+top: 72px;
+background-color: #2E2F42;
+}
+
+.section1 h1
+{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 56px;
+line-height: 60px;
+/* or 107% */
+
+text-align: center;
+letter-spacing: 0.02em;
+
+color: #FFFFFF;
+}
+
+.section1 > button
+{
+   display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 16px 32px;
+gap: 10px;
+
+position: absolute;
+width: 169px;
+height: 56px;
+left: 636px;
+top: 428px;
+
+background: #4D5AE5;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+}
+
+.footer-index
+{
+width: 1440px;
+height: 312px;
+left: 0px;
+top: 2280px;
+}
