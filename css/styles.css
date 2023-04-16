@@ -51,7 +51,7 @@ color: #2e2f42;
     text-decoration: none;
 }
 
-.studio-1
+.studio-one
 {
     font-family: 'Roboto';
 font-style: normal;
@@ -74,14 +74,14 @@ order: 0;
 flex-grow: 0;
 }
 
-.studio-1:hover
+.studio-one:hover
 {
 
   color: #404bbf;
 }
 
 
-.studio-1:focus
+.studio-one:focus
 
 {
     color: #404bbf;
