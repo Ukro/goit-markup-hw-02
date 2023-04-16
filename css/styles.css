@@ -141,7 +141,7 @@ color: #2E2F42;
     --brand-color: #434455;
   }
  
-.section1
+.section-one
 {
 width: 1440px;
 height: 600px;
@@ -150,8 +150,10 @@ top: 72px;
 background-color: #2E2F42;
 }
 
-.section1 h1
+
+.heder-sectione-one
 {
+
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
@@ -163,11 +165,11 @@ text-align: center;
 letter-spacing: 0.02em;
 
 color: #FFFFFF;
-}
 
-.heder-sectione-one
-{
-line-height: 1.07;
+
+
+
+    line-height: 1.07;
 }
 
 .button-sectione-one
@@ -202,7 +204,7 @@ color: #ffffff;
 
 cursor: pointer;
 
-
+background-color: #4D5AE5;
 }
 
 .button-sectione-one:hover
