@@ -88,12 +88,12 @@ flex-grow: 0;
 }
 
 
-.contacts-email
+.contacts-email:hover .contacts-email:focus
 {
 var(--hover-color);
 }
 
-.contacts-number
+.contacts-number:hover .contacts-number:focus
 {
 var(--hover-color);
 }
