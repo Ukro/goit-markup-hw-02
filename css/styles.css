@@ -165,7 +165,12 @@ letter-spacing: 0.02em;
 color: #FFFFFF;
 }
 
-.section1 > button
+.heder-sectione-one
+{
+line-height: 1.07;
+}
+
+.button-sectione-one
 {
    display: flex;
 flex-direction: row;
