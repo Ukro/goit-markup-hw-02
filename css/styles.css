@@ -134,11 +134,11 @@ color: #2E2F42;
     color: var(--brand-color);
 }
 
-/* 
+ 
 :root {
     --brand-color: #434455;
   }
- */
+ 
 .section1
 {
 width: 1440px;
