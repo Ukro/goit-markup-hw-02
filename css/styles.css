@@ -74,14 +74,14 @@ order: 0;
 flex-grow: 0;
 }
 
-.studio-2:hover
+.studio:hover
 {
 
   color: #404bbf;
 }
 
 
-.studio-2:focus
+.studio:focus
 
 {
     color: #404bbf;
