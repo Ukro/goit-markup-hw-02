@@ -88,12 +88,12 @@ flex-grow: 0;
 }
 
 
-.contacts:focus
+.link:focus
 {
     color: var(--hover-color);
 }
 
-.contacts:hover 
+.link:hover 
 {
     color: var(--hover-color);
 }
