@@ -88,16 +88,10 @@ flex-grow: 0;
 }
 
 
-.contacts-email:hover .contacts-email:focus
+.contacts:hover .contacts:focus
 {
 var(--hover-color);
 }
-
-.contacts-number:hover .contacts-number:focus
-{
-var(--hover-color);
-}
-
 
 .webstudio2
 {
