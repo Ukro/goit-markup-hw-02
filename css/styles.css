@@ -88,10 +88,18 @@ flex-grow: 0;
 }
 
 
-.contacts:hover .contacts:focus
+.contacts:focus
 {
-var(--hover-color);
+    color: var(--hover-color);
 }
+
+.contacts:hover 
+{
+    color: var(--hover-color);
+}
+
+
+
 
 .webstudio2
 {
