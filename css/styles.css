@@ -323,3 +323,21 @@ top: 2280px;*/
     letter-spacing: 0.02em;
     color: var(--text-color);
 }
+
+.nav-ul-li:hover
+{
+    color: #404bbf ;
+}
+
+.nav-ul-li:focus
+{
+    color: #404bbf ;
+}
+
+
+/* address-style */
+.address-style
+{
+    font-style: normal;
+    
+}
