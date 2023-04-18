@@ -242,10 +242,35 @@ background-color: #4D5AE5;
     text-align: center;
     text-transform: capitalize;
     color: #2e2f42;
-    
+}
+
+/* section-four */
+.section-four
+{
+    background-color: #F4F4FD;
 
 }
 
+
+/* section-four-h */
+.section-four-h
+{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+
+}
+
+
+/* section-four-li */
+.section-four-li
+{
+    background-color: #FFFFFF;
+    
+}
 
 /* footer */
 
