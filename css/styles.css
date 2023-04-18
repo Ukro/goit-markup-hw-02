@@ -355,7 +355,7 @@ background-color:#F4F4FD;
 cursor: pointer;
 }
 
-.button-all:hover .button-all:focus
+.button-all:hover, .button-all:focus
 {
     color: #FFFFFF;
     background-color: #404BBF;
