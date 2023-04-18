@@ -297,8 +297,29 @@ top: 2280px;*/
 /*====== portfolio====== */
 
 
-/* span-portfolio
+/* span-portfolio*/
 
+
+
+:root
 {
-    #4d5ae5
-} */
+    --text-color: #2e2f42 ;
+
+}
+
+
+
+.span-portfolio
+{
+    color: var(--text-color);
+} 
+
+/* nav-ul-li */
+.nav-ul-li
+{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+}
