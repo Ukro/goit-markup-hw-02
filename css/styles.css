@@ -3,11 +3,10 @@
     --brand-color: #3f51b5;
     --hover-color: #404bbf;
     --ff-color: #FFFFFF;
-    --five-five-color: #434455;
     --e-five-color: #4D5AE5;
-    --forty-two-color: #2e2f42;
-    --bbf-color: #404bbf;
-    --brand-color: #434455; /*  ???????????????????*/
+    --brand-color: #434455;   /*???????????????????*/
+    --background-color: #F4F4FD;
+    --text-color: #2e2f42 ;
 
 }
 
@@ -17,23 +16,20 @@ width: 1440px;
 height: 2592px;
 background: var(--ff-color);
 font-family: 'Roboto', sans-serif; 
-color: var(--five-five-color); 
+color: var(--brand-color); 
 background-color: var(--ff-color);
 }
 
-/*
-.header-index
+.body-portfolio
 {
-width: 1440px;
-height: 72px;
-left: 0px;
-top: 0px;
+    font-family: 'Roboto', sans-serif; 
+    color: #434455; 
+    background-color: #FFFFFF ;
+
 }
-*/
 
 .webstudio-one
 {
-font-family: 'Raleway';
 font-style: normal;
 font-weight: 800;
 font-size: 18px;
@@ -54,7 +50,7 @@ color: var(--e-five-color);
 
 .span-one
 {
-color: var(--forty-two-color);
+color: var(--text-color);
 }
 
 
@@ -75,7 +71,7 @@ letter-spacing: 0.02em;
 
 /* NAVY BLUE */
 
-color: var(--forty-two-color);
+color: var(--text-color);
 
 
 /* Inside auto layout */
@@ -85,17 +81,14 @@ order: 0;
 flex-grow: 0;
 }
 
-.studio-one:hover, .studio-one:focus
+.studio-one:hover, .studio-one:focus, .link:focus, .link:hover 
 {
 
-  color: var(--bbf-color);
+  color: var(--hover-color);
 }
 
 
-.link:focus, .link:hover 
-{
-    color: var(--hover-color);
-}
+
 
 
 
@@ -118,7 +111,7 @@ text-transform: uppercase;
 
 /* NAVY BLUE */
 
-color: var(--forty-two-color);
+color: var(--text-color);
 }
 
 .list
@@ -143,7 +136,7 @@ width: 1440px;
 height: 600px;
 left: 0px;
 top: 72px;
-background-color: var(--forty-two-color);
+background-color: var(--text-color);
 }
 
 
@@ -196,18 +189,13 @@ color: var(--ff-color);
 
 cursor: pointer;
 
-background-color: #4D5AE5;
+background-color: var(--e-five-color);
 }
 
-.button-sectione-one:hover
+.button-sectione-one:hover, .button-sectione-one:focus
 {
-    background-color: #404BBF;
+    background-color: var(--hover-color);
 
-}
-
-.button-sectione-one:focus
-{
-    background-color: #404BBF;
 }
 
 
@@ -217,7 +205,7 @@ background-color: #4D5AE5;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color:  #2e2f42;
+    color:  var(--text-color);
 
 }
 
@@ -237,13 +225,13 @@ background-color: #4D5AE5;
     line-height: 1.11;
     text-align: center;
     text-transform: capitalize;
-    color: #2e2f42;
+    color: var(-text-color);
 }
 
 /* section-four */
 .section-four
 {
-    background-color: #F4F4FD;
+    background-color: var(--background-color);
 
 }
 
@@ -256,7 +244,7 @@ background-color: #4D5AE5;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2e2f42;
+    color: var(--text-color);
 
 }
 
@@ -264,7 +252,7 @@ background-color: #4D5AE5;
 /* section-four-li */
 .section-four-li
 {
-    background-color: #FFFFFF;
+    background-color: var(--ff-color);
 
 }
 
@@ -273,7 +261,7 @@ background-color: #4D5AE5;
 .footer-index
 {
 
-    background-color: #2e2f42;
+    background-color: var(--text-color);
 
 
     /*  
@@ -286,7 +274,7 @@ top: 2280px;*/
 
 .span-two
 {
-    color: #f4f4fd ; 
+    color: var(--background-color) ; 
 }
 
 
@@ -295,13 +283,6 @@ top: 2280px;*/
 
 /* span-portfolio*/
 
-
-
-:root
-{
-    --text-color: #2e2f42 ;
-
-}
 
 
 
@@ -320,15 +301,11 @@ top: 2280px;*/
     color: var(--text-color);
 }
 
-.nav-ul-li:hover
+.nav-ul-li:hover, .nav-ul-li:focus
 {
-    color: #404bbf ;
+    color: var(--hover-color);
 }
 
-.nav-ul-li:focus
-{
-    color: #404bbf ;
-}
 
 
 /* address-style */
@@ -345,16 +322,16 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
-color:  #4d5ae5;
-background-color:#F4F4FD;
+color: var(--e-five-color);
+background-color: var(--background-color);
 
 cursor: pointer;
 }
 
 .button-all:hover, .button-all:focus
 {
-    color: #FFFFFF;
-    background-color: #404BBF;
+    color: var(--ff-color);
+    background-color: var(--hover-color);
 }
 
 .images
@@ -363,7 +340,7 @@ cursor: pointer;
     font-size: 20px ;
     line-height: 1.2;
     letter-spacing: 0.02em;
- color:#2e2f42;
+ color: var(--text-color);
 
 
 }
@@ -374,10 +351,10 @@ cursor: pointer;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--brand-color);
 }
 
 .span-portfolio-port
 {
-    color: #f4f4fd;
+    color: var(--background-color);
 }
