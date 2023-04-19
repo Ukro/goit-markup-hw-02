@@ -3,7 +3,11 @@
     --brand-color: #3f51b5;
     --hover-color: #404bbf;
     --ff-color: #FFFFFF;
-    --five-five-color: 434455;
+    --five-five-color: #434455;
+    --e-five-color: #4D5AE5;
+    --forty-two-color: #2e2f42;
+    --bbf-color: #404bbf;
+    --brand-color: #434455; /*  ???????????????????*/
 
 }
 
@@ -45,12 +49,12 @@ text-transform: uppercase;
 
 /* IRIS */
 
-color: #4D5AE5;
+color: var(--e-five-color);
 }
 
 .span-one
 {
-color: #2e2f42;
+color: var(--forty-two-color);
 }
 
 
@@ -61,18 +65,17 @@ color: #2e2f42;
 
 .studio-one
 {
-    font-family: 'Roboto';
+font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 24px;
-/* identical to box height, or 150% */
 
 letter-spacing: 0.02em;
 
 /* NAVY BLUE */
 
-color: #2E2F42;
+color: var(--forty-two-color);
 
 
 /* Inside auto layout */
@@ -82,36 +85,23 @@ order: 0;
 flex-grow: 0;
 }
 
-.studio-one:hover
+.studio-one:hover, .studio-one:focus
 {
 
-  color: #404bbf;
+  color: var(--bbf-color);
 }
 
 
-.studio-one:focus
-
-{
-    color: #404bbf;
-}
-
-
-.link:focus
+.link:focus, .link:hover 
 {
     color: var(--hover-color);
 }
-
-.link:hover 
-{
-    color: var(--hover-color);
-}
-
 
 
 
 .webstudio2
 {
-    width: 71px;
+width: 71px;
 height: 21px;
 
 font-family: 'Raleway';
@@ -119,8 +109,8 @@ font-style: normal;
 font-weight: 800;
 font-size: 18px;
 line-height: 21px;
-/* identical to box height, or 117% */
 
+    
 display: flex;
 align-items: center;
 letter-spacing: 0.03em;
@@ -128,7 +118,7 @@ text-transform: uppercase;
 
 /* NAVY BLUE */
 
-color: #2E2F42;
+color: var(--forty-two-color);
 }
 
 .list
@@ -146,24 +136,21 @@ color: #2E2F42;
 }
 
  
-:root {
-    --brand-color: #434455;
-  }
- 
+
 .section-one
 {
 width: 1440px;
 height: 600px;
 left: 0px;
 top: 72px;
-background-color: #2E2F42;
+background-color: var(--forty-two-color);
 }
 
 
 .heder-sectione-one
 {
 
-    font-family: 'Roboto';
+font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
 font-size: 56px;
@@ -173,7 +160,7 @@ line-height: 60px;
 text-align: center;
 letter-spacing: 0.02em;
 
-color: #FFFFFF;
+color: var(--ff-color);
 line-height: 1.07;
 }
 
@@ -205,7 +192,7 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
-color: #ffffff;
+color: var(--ff-color);
 
 cursor: pointer;
 
