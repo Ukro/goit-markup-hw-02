@@ -9,8 +9,10 @@
 {
 width: 1440px;
 height: 2592px;
-
-background: #FFFFFF
+background: #FFFFFF;
+font-family: 'Roboto', sans-serif; 
+color: #434455; 
+background-color: #FFFFFF ;
 }
 
 .header-index
@@ -28,6 +30,12 @@ font-style: normal;
 font-weight: 800;
 font-size: 18px;
 line-height: 21px;
+
+font-family: 'Raleway', sans-serif;
+  line-height: 1.17;
+
+
+
 /* identical to box height, or 117% */
 
 display: flex;
@@ -126,6 +134,7 @@ color: #2E2F42;
 .list
 {
     font-style: normal;
+    list-style: none;
 }
 
 .contacts
