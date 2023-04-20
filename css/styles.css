@@ -74,12 +74,12 @@ letter-spacing: 0.02em;
 color: var(--text-color);
 
 
-/* Inside auto layout */
+/* Inside auto layout 
 
 flex: none;
 order: 0;
 flex-grow: 0;
-}
+}*/
 
 .studio-one:hover, .studio-one:focus, .link:focus, .link:hover 
 {
