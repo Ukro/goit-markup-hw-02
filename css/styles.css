@@ -78,8 +78,8 @@ color: var(--text-color);
 
 flex: none;
 order: 0;
-flex-grow: 0;
-}*/
+flex-grow: 0;*/
+}
 
  .studio-one:hover, .studio-one:focus, .link:focus, .link:hover 
 {
