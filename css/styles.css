@@ -87,7 +87,10 @@ flex-grow: 0;*/
   color: var(--hover-color);
 }
 
-
+.footer-p
+{
+    
+}
 
 
 
@@ -225,7 +228,7 @@ background-color: var(--e-five-color);
     line-height: 1.11;
     text-align: center;
     text-transform: capitalize;
-    color: var(-text-color);
+    color: var(--text-color);
 }
 
 /* section-four */
@@ -356,5 +359,10 @@ cursor: pointer;
 
 .span-portfolio-port
 {
+    color: var(--background-color);
+}
+
+
+.footer-p{
     color: var(--background-color);
 }
