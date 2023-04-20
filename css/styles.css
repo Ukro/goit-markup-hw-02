@@ -81,7 +81,7 @@ order: 0;
 flex-grow: 0;
 }*/
 
-.studio-one:hover, .studio-one:focus, .link:focus, .link:hover 
+ .studio-one:hover, .studio-one:focus, /*.link:focus, .link:hover  */
 {
 
   color: var(--hover-color);
