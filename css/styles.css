@@ -38,6 +38,7 @@ body {
   /* IRIS */
 
   color: var(--e-five-color);
+  font-family: 'Raleway', sans-serif;
 }
 
 .span-one {
